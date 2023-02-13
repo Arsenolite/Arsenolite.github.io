@@ -163,10 +163,11 @@
       <ul class="archive-list">
         
         <li class="archive-list-item">
-          <h2><a href="/2023/02/13/2023-02-13-%E8%AE%B0%E4%B8%80%E6%AC%A1KVM%E6%98%BE%E5%8D%A1%E7%9B%B4%E9%80%9A/">记一次KVM显卡直通</a></h2>
+          <h2><a href="/2023/02/13/2023-02-13-%E8%AE%B0%E4%B8%80%E6%AC%A1KVM%E6%98%BE%E5%8D%A1%E7%9B%B4%E9%80%9A/">记一次解决KVM显卡直通导致宿主机死机问题</a></h2>
           <p>
-               太长不看  浪潮5212M4机器，直通显卡给KVM虚拟机，宿主机GRUB参数内，除开启iommu、指定VFIO之外，需要添加 video=efifb:off 避免开机就使用显卡。 
-   碎碎念  这几年不更新，主要是觉得自己解决的问题、学到的知识无非是在互联网上做摘抄，很难有多少说是自己的创...
+               太长不看  浪潮5212M4机器，宿主系统Ubuntu 22.04 Server，直通显卡给KVM虚拟机。 
+ 宿主机GRUB参数内，除开启iommu、指定VFIO之外，需要添加 video=efifb:off 避免开机就使用显卡； 
+ 并且推荐把BIOS内首选显示设备改为onboard se...
           </p>
           <ul class="tag-list clearfix">
             
