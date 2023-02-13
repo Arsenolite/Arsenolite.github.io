@@ -8,7 +8,7 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>
-    记一次解决KVM显卡直通导致宿主机死机问题 | Mother Ship的笔记
+    2023-02-13-记一次解决KVM显卡直通导致宿主机死机问题 | Mother Ship的笔记
   </title>
   <meta name="description" content="">
   
@@ -137,7 +137,7 @@
   </h3>
 
   <article class="post-content">
-    <h1>记一次解决KVM显卡直通导致宿主机死机问题</h1>
+    <h1>2023-02-13-记一次解决KVM显卡直通导致宿主机死机问题</h1>
     <h4 id="太长不看"><a href="#太长不看" class="headerlink" title="太长不看"></a>太长不看</h4><p>浪潮5212M4机器，宿主系统Ubuntu 22.04 Server，直通显卡给KVM虚拟机。</p>
 <p>宿主机GRUB参数内，除开启iommu、指定VFIO之外，需要添加<code>video=efifb:off</code>避免开机就使用显卡；</p>
 <p>并且推荐把BIOS内首选显示设备改为onboard service（板载显卡，也就是IPMI控制台），否则引导界面可能会黑屏</p>
