@@ -16,9 +16,11 @@ favicon: https://www.mothership.top/favicon.ico
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.mothership.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
-
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 # Directory
 source_dir: source
 public_dir: public
@@ -75,6 +77,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: replica
+
 
 disqus: mother-ship # DISQUS ID
 gcs: 015302745202112709039:d2rq52htkfe

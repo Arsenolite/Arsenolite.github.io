@@ -1,7 +1,8 @@
 ---
 title: First Blood
+abbrlink: 237bdc72
 date: 2017-06-22 22:04:08
-tags: 
+tags:
 ---
 
 几度尝试，将构造器（哪里不对）定为hexo。

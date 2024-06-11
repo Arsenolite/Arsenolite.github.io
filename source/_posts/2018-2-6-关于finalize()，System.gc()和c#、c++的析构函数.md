@@ -1,8 +1,13 @@
 ---
 title: 关于finalize()，System.gc()和C#、C++的析构函数的一点笔记
-tags: ["Java","垃圾回收","C#"]
-categories: ["2018-02"]
-date: 2018-2-6 11:17:36
+tags:
+  - Java
+  - 垃圾回收
+  - C#
+categories:
+  - 2018-02
+abbrlink: 16b03ccf
+date: 2018-02-06 11:17:36
 ---
 ### 2018-4-2 补充：
 在阅读了深入理解JVM后，作者的这一段话彻底理清了这一块：

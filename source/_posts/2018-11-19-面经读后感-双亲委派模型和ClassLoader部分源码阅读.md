@@ -1,7 +1,13 @@
 ---
 title: 面经读后感-双亲委派模型和ClassLoader部分源码阅读
-tags: ["Java","类加载器","双亲委派","面经读后感"]
-categories: ["2018-11"]
+tags:
+  - Java
+  - 类加载器
+  - 双亲委派
+  - 面经读后感
+categories:
+  - 2018-11
+abbrlink: 4ce50000
 date: 2018-11-19 11:58:44
 ---
 

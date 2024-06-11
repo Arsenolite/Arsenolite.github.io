@@ -1,7 +1,10 @@
 ---
 title: 修改hexo-material主题的代码高亮风格
-tags: ["hexo"]
-categories: ["2017-08"]
+tags:
+  - hexo
+categories:
+  - 2017-08
+abbrlink: fdd1c61e
 date: 2017-08-03 10:41:21
 ---
 其实比较简单，做几个填空题而已。

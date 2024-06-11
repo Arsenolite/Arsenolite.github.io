@@ -1,7 +1,12 @@
 ---
 title: jOOQ比起MyBatis的便利之处
-tags: ["Java","MyBatis","jOOQ"]
-categories: ["2018-10"]
+tags:
+  - Java
+  - MyBatis
+  - jOOQ
+categories:
+  - 2018-10
+abbrlink: 5e4a10bd
 date: 2018-10-12 15:13:04
 ---
 单位新项目用了新的持久化框架，叫[jOOQ](https://www.jooq.org/)。

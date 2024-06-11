@@ -1,8 +1,14 @@
 ---
 title: 记一次在CentOS 7上部署Java测试环境的过程
+tags:
+  - Java
+  - Linux
+  - CentOS
+  - MySQL
+categories:
+  - 2017-06
+abbrlink: 8982259a
 date: 2017-06-29 13:45:35
-tags: ["Java","Linux","CentOS","MySQL"]
-categories: ["2017-06"]
 ---
 将之前配置LNMJ测试环境的过程归个档，方便日后查阅。
 
