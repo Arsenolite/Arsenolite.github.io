@@ -1,41 +1,30 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
 title: Mother Ship的笔记
-subtitle:
-description:
-keywords:
+subtitle: null
+description: null
+keywords: null
 author: Mother Ship
 language: zh-CN
 timezone: Asia/Shanghai
 favicon: https://www.mothership.top/favicon.ico
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.mothership.top
 root: /
 permalink: posts/:abbrlink.html
-permalink_defaults:
+permalink_defaults: null
 abbrlink:
-  alg: crc32  # 算法：crc16(default) and crc32
-  rep: hex    # 进制：dec(default) and hex
-# Directory
+  alg: crc32
+  rep: hex
 source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md # File name of new posts
+i18n_dir: ':lang'
+skip_render: null
+new_post_name: ':title.md'
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -45,59 +34,33 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
-  
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+  tab_replace: null
 index_generator:
   path: ''
   per_page: 10
-  order_by: -date
-  
-# Category & Tag
+  order_by: '-date'
 default_category: uncategorized
-category_map:
-tag_map:
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+category_map: null
+tag_map: null
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
 per_page: 0
 pagination_dir: page
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: replica
-
-
-disqus: mother-ship # DISQUS ID
+theme: icarus
+disqus: mother-ship
 gcs: 015302745202112709039:d2rq52htkfe
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: https://github.com/Mother-Ship/Mother-Ship.github.io.git
   branch: master
-  
 location: 杭州
 email: quhansheng@gmail.com
 avatar: https://a.ppy.sh/2545898_.png
 social:
   github: https://github.com/Mother-Ship
-  weibo: 
-  linkedin:
-  
+  weibo: null
+  linkedin: null
 menu:
- archives: true
- tags: true
- categories: true
+  archives: true
+  tags: true
+  categories: true
